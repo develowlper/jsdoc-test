@@ -6,7 +6,6 @@ import Test from "./components/Test";
 
 /**
  * Super fancy
- * @property testProp
  */
 
 const App = () => {

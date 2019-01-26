@@ -3,8 +3,8 @@ import React from "react";
 /**
  * super cool test component
  * @returns react component
- * @property test:string
+ * @param {string} test
  */
-export const Test = () => {
+export const Test = (test) => {
   return <div>Test</div>;
 };
