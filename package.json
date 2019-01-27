@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@material-ui/styles": "^3.0.0-alpha.9",
     "jshint": "^2.9.7",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",
@@ -26,7 +28,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "docco": "^0.8.0",
     "documentation": "^9.1.1",
     "prettier": "^1.16.1"
   }

@@ -1,10 +1,19 @@
 import React from "react";
 
+import { Button } from "@material-ui/core";
+import { useTest } from "../../lib";
+
 /**
  * super cool test component
- * @returns react component
- * @param {string} test
+ * @returns React functional Test compont
+ * @summary use test hook to get data
+ * @since 0.1.0
  */
-export const Test = (test) => {
-  return <div>Test</div>;
+const Test = () => {
+  const test = useTest();
+  return <Button>{test}</Button>;
 };
+
+export default Test;
+
+export { Test };

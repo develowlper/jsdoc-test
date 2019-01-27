@@ -1,6 +1,3 @@
-import React, { createContext } from "react";
-
-const Context = createContext({
-  test: "test"
-});
-
+export { install } from "./bootstrap";
+export { TestProvider } from "./Lib";
+export { useTest } from "./hooks";

@@ -4,7 +4,11 @@
 
 -   [App][1]
 -   [Test][2]
-    -   [Parameters][3]
+-   [useTest][3]
+-   [install][4]
+-   [useStyles][5]
+    -   [Parameters][6]
+-   [super-cool-lib/Stlyes][7]
 
 ## App
 
@@ -14,16 +18,61 @@ Super fancy
 
 super cool test component
 
+Returns **any** React functional Test compont
+
+**Meta**
+
+-   **since**: 0.1.0
+
+## useTest
+
+React hook to use test context
+
+Returns **[string][8]** Test-String
+
+## install
+
+super cool install function
+
+**Meta**
+
+-   **since**: 0.1.0
+
+## useStyles
+
+Use css-in-js typed stlying
+
 ### Parameters
 
--   `test` **[string][4]** 
+-   `styles` **[object][9]** Styles object to be applied
 
-Returns **any** react component
+Returns **[object][9]** Object with class names and string kvps
+
+**Meta**
+
+-   **since**: 0.1.0
+-   **author**: develowlper
+
+## super-cool-lib/Stlyes
+
+**Meta**
+
+-   **since**: 0.1.0
 
 [1]: #app
 
 [2]: #test
 
-[3]: #parameters
+[3]: #usetest
 
-[4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[4]: #install
+
+[5]: #usestyles
+
+[6]: #parameters
+
+[7]: #super-cool-libstlyes
+
+[8]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[9]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
