@@ -4,6 +4,7 @@ import { TestContext } from "./Lib";
 /**
  * React hook to use test context
  * @returns {string} Test-String
+ * @example const styles = useStyles()
  */
 const useTest = () => {
   const test = useContext(TestContext);
