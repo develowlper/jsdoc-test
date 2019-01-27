@@ -7,6 +7,9 @@ import { TestContext } from "./Lib";
  * @example const styles = useStyles()
  */
 const useTest = () => {
+  /**
+   * Get context from Testcontext
+   */
   const test = useContext(TestContext);
   return test;
 };

@@ -6,10 +6,11 @@
 -   [Test][2]
 -   [useTest][3]
     -   [Examples][4]
--   [install][5]
--   [useStyles][6]
-    -   [Parameters][7]
--   [super-cool-lib/Stlyes][8]
+-   [test][5]
+-   [install][6]
+-   [useStyles][7]
+    -   [Parameters][8]
+-   [super-cool-lib/Stlyes][9]
 
 ## App
 
@@ -35,7 +36,11 @@ React hook to use test context
 const styles = useStyles()
 ```
 
-Returns **[string][9]** Test-String
+Returns **[string][10]** Test-String
+
+## test
+
+Get context from Testcontext
 
 ## install
 
@@ -51,9 +56,9 @@ Use css-in-js typed stlying
 
 ### Parameters
 
--   `styles` **[object][10]** Styles object to be applied
+-   `styles` **[object][11]** Styles object to be applied
 
-Returns **[object][10]** Object with class names and string kvps
+Returns **[object][11]** Object with class names and string kvps
 
 **Meta**
 
@@ -74,14 +79,16 @@ Returns **[object][10]** Object with class names and string kvps
 
 [4]: #examples
 
-[5]: #install
+[5]: #test-1
 
-[6]: #usestyles
+[6]: #install
 
-[7]: #parameters
+[7]: #usestyles
 
-[8]: #super-cool-libstlyes
+[8]: #parameters
 
-[9]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[9]: #super-cool-libstlyes
 
-[10]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+[10]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[11]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
